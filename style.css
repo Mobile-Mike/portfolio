@@ -1,0 +1,292 @@
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q demo
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+strong {font-weight: 700;}
+em {font-style: italic;}
+
+
+/* General
+***********************/
+body {
+	font-size:16px;
+	line-height:22px;
+	height: auto;
+	font-family: 'Raleway', sans-serif;
+	color:#373648;
+	background-color:#EEEFE5;
+}
+a:link {color: #d76713; text-decoration:none;}
+a:visited {color: #d76713; text-decoration:none;}
+a:hover {color: #813107; text-decoration:none;}
+a:active {color: #d76713; text-decoration:none;}
+
+.MeetMeInBrooklyn-Regular { 
+	font-family: MeetMeInBrooklyn-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+.about h1{
+	/*margin-top:150px;*/
+}
+.skills h1, .work h1, .contact h1{
+	margin:30px 0 50px;
+}
+h1 {
+	font-size:55px;
+	line-height:60px;
+}
+h2 {
+	font-family: 'MeetMeInBrooklyn-Regular';
+	font-size:86px;
+	line-height:100px;
+	color:#FFFFFF;
+	margin-bottom:10px;
+}
+p{
+	font-size:25px;
+	color:#666666;
+	font-weight:300;
+	line-height:40px;
+
+}
+.bigSpace {
+	height:160px;
+	width:100%;
+	clear:both;
+}
+
+#home{
+	height:150px;
+}
+
+/* Navbar */
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+	font-size:14px;
+	line-height:14px;
+	text-transform:uppercase;
+	font-weight:500;
+	letter-spacing:3px;
+	z-index:99999;
+	background-color:#EEEFE5;
+	border-bottom: 2px solid #666666;
+}
+.nav-up {
+    top: -70px;
+}	
+
+.navWrapper {
+	padding:0px 15px 0px 15px;
+}
+#top-menu {
+    margin:0 auto;
+    width:320px;
+}
+
+#top-menu li {
+    float:left;
+}
+#top-menu a {
+    display: block;
+    margin: 25px 14px 0px 14px;
+    text-align: center;
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    color: #373648;
+    text-decoration: none;
+	padding:2px 3px 2px 5px;
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+}
+
+#top-menu a:hover {
+	color: #000000; text-decoration:none; font-weight:500; padding:2px 3px 2px 5px;
+}
+
+#top-menu li.active a {
+    font-weight:500; padding:2px 3px 2px 5px; border-bottom: 1px solid #373648;
+}
+/*SECTIONS:*/
+
+/*ABOUT:*/
+.about{
+	background-image: url(mike2.png);
+	background-position: 95% 100%;
+	background-size: 300px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #666666;
+	min-height:500px;
+	padding-left:30px;
+	color:#666666;
+}
+.aboutMike {
+	margin-top:50px;
+	width:60%;
+	max-width:800px;
+	font-size:25px;
+	
+	font-weight:300;
+	line-height:40px;
+	padding-bottom: 50px;
+}
+img.mike{
+	float: right;
+	/*position:absolute;
+	bottom:130px;
+	right:0;*/
+}
+.skills, .contact{
+	border-top: 1px solid white;
+	border-bottom: 2px solid #666666;
+	color:#666666;
+	padding:30px;
+}
+.skills ul{
+	width:100%;
+	font-weight:400;
+	line-height:40px;
+}
+.skills ul span{
+	float:right;
+	padding-right:10px;
+	font-size:15px;
+}
+li.html, li.css, li.js, li.jquery, li.angular, li.php, li.node, li.csharp, li.phonegap, li.wordpress{
+	background-color: #666666;
+	color:white;
+	padding-left:10px;
+	margin:10px 0;
+}
+li.html{
+	width: 95%;
+} 
+li.css{
+	width: 95%;
+}
+li.js{
+	width: 90%;
+}
+li.jquery{
+	width: 90%;
+}
+li.angular{
+	width: 85%;
+}
+li.php{
+	width: 85%;
+}
+li.node{
+	width: 70%;
+}
+li.csharp{
+	width: 60%;
+}
+li.phonegap{
+	width: 80%;
+}
+li.wordpress{
+	width: 80%;
+}
+
+
+
+
+
+/* / ABOUT*/
+
+/* WORK */
+.work{
+	border-top: 1px solid white;
+	border-bottom: 2px solid #666666;
+	color:#666666;
+	padding:30px;
+
+}
+.work img{
+	display:block;
+	margin:15px auto;
+	width:100%;
+	max-width:800px;
+}
+.project{
+	border-bottom:1px solid #666666;
+	border-top:1px solid white;
+	padding:30px 0;
+}
+.project1{
+	border-bottom:1px solid #666666;
+	padding-bottom:30px;
+}
+.projectlast{
+	border-top:1px solid white;
+	padding-top: 30px;
+}
+.work a{
+	padding-top:20px;
+	border-top:none;
+}
+/* / WORK */
+	
+/* CONTACT */
+.contact{
+	min-height:500px;
+}
+.contact a{
+	margin:50px 0;
+	width:300px;
+	display:inline-block;
+}
+.contact a img{
+	float:left;
+	margin-top:-15px;
+}
+/* / CONTACT */
+
+
+
+/* Media Queries
+***********************/
+
+@media screen and (max-width: 750px) {
+
+	.about{
+		background-image: url(mike2.png);
+		background-position: 50% 100%;
+	}
+	.aboutMike {
+		margin-top:50px;
+		width:100%;
+		font-size:20px;	
+		padding-bottom: 350px;
+	}
+	p{
+		font-size: 20px;
+	}
+
+
+}
+
+
+
+/* Retina Display Images */
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+
+}
