@@ -1,10 +1,10 @@
 # portfolio
 
-# Simple portfolio template
+ Simple portfolio template
 
-# Lightweight
+- Lightweight
 
-# Responsive/Adaptive
+- Responsive/Adaptive
 
 # Plan to feed all the data from external JSON so some of you may reuse it easily
 
