@@ -31,9 +31,9 @@
     <h1>About</h1>
 
     <p class="aboutMike">
-      I am a self-motivated and experienced front end web developer from East London. Most of my time is consumed by building front end solutions for mobile devices, desktop browsers and Tvs. I am passionate about mobile development and enjoy testing new technologies to deliver best possible experience to the end user. I enjoy delivering new exciting projects within a team or by myself, leading the project from concept through UX to code and pushing live. I am renowned for fast HTML and CSS coding, accuracy and attention to detail as well as awesome interpersonal skills and a relaxed temperament. 
+      I am a self-motivated and experienced front end web developer from East London. Most of my time is consumed by building front end solutions for mobile devices, desktop browsers and Tvs. I am passionate about mobile development and enjoy testing new technologies to deliver best possible experience to the end user. I enjoy delivering new exciting projects within a team or by myself, leading the project from concept through UX to code and pushing live. I am renowned for fast HTML and CSS coding, accuracy and attention to detail as well as awesome interpersonal skills and a relaxed temperament.
     </p>
-  
+
 </div>
 
 <div class="skills">
@@ -41,6 +41,7 @@
   <ul>
     <li class="html">HTML<span>95%</span></li>
     <li class="css">CSS<span>95%</span></li>
+    <li class="react">React Native<span>90%</span></li>
     <li class="js">JavasScript<span>90%</span></li>
     <li class="jquery">jQuery<span>90%</span></li>
     <li class="angular">Angular<span>80%</span></li>
@@ -49,46 +50,58 @@
     <li class="wordpress">Wordpress<span>80%</span></li>
     <li class="node">Node.js<span>70%</span></li>
     <li class="node">Backbone.js<span>50%</span></li>
-    <li class="csharp">C#<span>50%</span></li>
+    <li class="csharp">C#<span>40%</span></li>
   </ul>
 </div>
+
+
 
 <div class="work">
   <a id="work"></a>
   <h1>Work:</h1>
   <div class="project1">
 
+      <p>Connected Space</p>
+      <a href="http://connected-space.co.uk/" target="_blank">http://connected-space.co.uk/</a>
+
+      <img src="iqcar.png" />
+
+      <p>React Native / JS / FireBase / Webpack / Cache / SVG / Analytics / Translations / Security / Promotions</p>
+      <a href="http://www.tracker.co.uk/iqcar/" target="_blank">http://www.tracker.co.uk/iqcar/</a>
+  </div>
+  <div class="project">
+
       <p>Betway Plus</p>
       <a href="https://plus.betway.com" target="_blank">https://plus.betway.com</a>
-    
+
       <img src="betwayplus-desktop.jpg" />
       <img src="betwayplus-mobile.jpg" />
-      
+
       <p>HTML / CSS / Angular / CMS / C# / Cache / SVG / Grunt / Web fonts / Analytics / Translations / Security / Promotions</p>
       <a href="https://plus.betway.com" target="_blank">https://plus.betway.com</a>
   </div>
 
   <div class="project">
-      
+
       <p>Betway Casino</p>
       <a href="https://casino.betway.com" target="_blank">https://casino.betway.com</a>
 
       <img src="betwaycasino.jpg" />
-      
+
       <p>HTML / CSS / Angular / CMS / C# / Cache / SVG / Grunt / Web fonts / Analytics / Translations / Security / Promotions</p>
       <a href="https://casino.betway.com" target="_blank">https://casino.betway.com</a>
-  
+
   </div>
 
 <!--   This application went down for some reason, happy to talk about it as it used interesting technologies for our affiliate marketing dep.
       [HTML / CSS / Sencha touch / Phonegap / Wordpress / JSON / Analytics / Translations]
   <div class="project">
-    
+
       <p>Casino app</p>
       <a href="https://itunes.apple.com/gb/app/casino-app-offers-bonuses/id739066904?ls=1&mt=8" >https://itunes.apple.com/gb/app/casino-app-offers-bonuses/</a>
 
       <img src="casinoapp.png" />
-      
+
       <p>HTML / CSS / Sencha touch / Phonegap / Wordpress / JSON / Analytics / Translations </p>
       <a href="https://itunes.apple.com/gb/app/casino-app-offers-bonuses/id739066904?ls=1&mt=8" >https://itunes.apple.com/gb/app/casino-app-offers-bonuses/</a>
 
@@ -97,12 +110,12 @@
   <div class="project">
 
       <p>Amsterdam guide for Blackberry 10</p>
-    
+
       <img src="amsterdam.png" />
-    
+
       <p>HTML / CSS / JS / WebWorks for BB10</p>
       <a href="http://appworld.blackberry.com/webstore/content/21915900/" target="_blank"> http://appworld.blackberry.com/webstore/amsterdam</a>
-  
+
   </div>
 
   <div class="project">
@@ -127,24 +140,24 @@
 <div class="contact">
   <div id="contact"></div>
   <h1>Contact:</h1>
-    
+
   <p>Currently available for contract</p>
 
   <a href="tel:07590041236" target="_blank"><img width="50" height="50" src="call.png" />07590041236</a>
-  
+
   <a href="mailto:mike@mobilemike.co" target="_blank"><img width="50" height="50" src="mail.png" />mike@mobilemike.co</a>
 
-  <a href="http://mobilemike.co/mobilemikecv.pdf" target="_blank"><img width="50" height="50" src="star.png" />CV.pdf</a>
+  <a href="http://mobilemike.co/mikeCV.pdf" target="_blank"><img width="50" height="50" src="star.png" />CV.pdf</a>
 
   <a href="https://twitter.com/m0bile_mike" target="_blank"><img width="50" height="50" src="twitter.png" />https://twitter.com/m0bile_mike</a>
 
   <a href="https://www.instagram.com/mobile_mike_/" target="_blank"><img width="50" height="50" src="instagram.png" />Instagram</a>
 
-  <a href="http://uk.linkedin.com/pub/michael-marciniak/19/446/36/" target="_blank"><img width="50" height="50" src="linkedin.png" />LinkedIn</a>  
+  <a href="http://uk.linkedin.com/pub/michael-marciniak/19/446/36/" target="_blank"><img width="50" height="50" src="linkedin.png" />LinkedIn</a>
 
 </div>
 
-  
+
 <script>
 // Cache selectors
 var lastId,
@@ -163,7 +176,7 @@ var lastId,
 menuItems.click(function(e){
   var href = $(this).attr("href"),
       offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
-  $('html, body').stop().animate({ 
+  $('html, body').stop().animate({
       scrollTop: offsetTop
   }, 900);
   e.preventDefault();
@@ -173,7 +186,7 @@ menuItems.click(function(e){
 $(window).scroll(function(){
    // Get container scroll position
    var fromTop = $(this).scrollTop()+topMenuHeight;
-   
+
    // Get id of current scroll item
    var cur = scrollItems.map(function(){
      if ($(this).offset().top < fromTop)
@@ -182,14 +195,14 @@ $(window).scroll(function(){
    // Get the id of the current element
    cur = cur[cur.length-1];
    var id = cur && cur.length ? cur[0].id : "";
-   
+
    if (lastId !== id) {
        lastId = id;
        // Set/remove active class
        menuItems
          .parent().removeClass("active")
          .end().filter("[href=#"+id+"]").parent().addClass("active");
-   }                   
+   }
 });
 </script>
 <script>
@@ -212,11 +225,11 @@ setInterval(function() {
 
 function hasScrolled() {
     var st = $(this).scrollTop();
-    
+
     // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
-    
+
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
@@ -228,9 +241,9 @@ function hasScrolled() {
             $('header').removeClass('nav-up').addClass('nav-down');
         }
     }
-    
+
     lastScrollTop = st;
 }
-</script> 
+</script>
 </body>
 </html>
